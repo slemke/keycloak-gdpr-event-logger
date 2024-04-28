@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.github.slemke'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.keycloak:keycloak-server-spi-private:24.0.3')
+    implementation('org.keycloak:keycloak-server-spi:24.0.3')
+    implementation('org.keycloak:keycloak-services:24.0.3')
+}
+
+test {
+    useJUnitPlatform()
+}
