@@ -52,11 +52,11 @@ Currently, the following masking rules are implemented for the user:
 
 ## Configuration
 
-The logger can be configured with the same configuration that is used for the jboss logger:
+The logger can be configured with the same configuration that is used for the jboss logger expect for the different provider id:
 
 ```shell
---spi-events-listener-jboss-logging-success-level=info
---spi-events-listener-jboss-logging-error-level=error
+--spi-events-listener-gdpr-jboss-logging-success-level=info
+--spi-events-listener-gdpr-jboss-logging-error-level=error
 ```
 
 ## Example Output
